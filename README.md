@@ -34,7 +34,7 @@ This project will be particularly helpful for:
 
 ## Dataset
 
-The dataset used for this project was obtained from Kaggle. It includes information about individual's Facial Structure Metrics such as length of hair, height of forehead, node width, node length, distance from nose to lip and other relevant features.
+The dataset used for this project was obtained from [Kaggle](https://www.kaggle.com/datasets/elakiricoder/gender-classification-dataset). It includes information about individual's Facial Structure Metrics such as length of hair, height of forehead, node width, node length, distance from nose to lip and other relevant features.
 
 ## Data Preprocessing
 
