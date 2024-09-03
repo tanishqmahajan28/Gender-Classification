@@ -5,6 +5,7 @@ This project focuses on developing a machine learning model for gender classific
 ## Table of Contents
 
 - [Overview](#overview)
+- [Who Will Find This Helpful](#who-will-find-this-helpful)
 - [Dataset](#dataset)
 - [Data Preprocessing](#data-preprocessing)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -21,6 +22,15 @@ This project focuses on developing a machine learning model for gender classific
 ## Overview
 
 Gender classification involves identifying the gender of an individual based on various input features. This project implements several machine learning and deep learning models to perform this classification with high accuracy.
+
+## Who Will Find This Helpful
+
+This project will be particularly helpful for:
+
+- **Data Scientists and Machine Learning Practitioners:** Looking to explore and implement classification models for real-world datasets.
+- **Students and Researchers:** Interested in studying gender classification and exploring the impact of feature engineering on model performance.
+- **Developers and Engineers:** Working on applications that require gender classification as a component, such as targeted marketing or personalized user experiences.
+- **Educators:** Seeking practical examples to demonstrate machine learning concepts in academic settings.
 
 ## Dataset
 
@@ -39,12 +49,14 @@ Visualizations such as histograms, box plots, and scatter plots were used to exp
 
 ## Feature Engineering
 
-The following features were considered in the model:
+The following feature engineering techniques were applied:
 
-- **Facial Features**: Eye shape, nose length, brow shape, mouth width
-- **Hair Style**: Hair length, color, texture, presence of accessories
-- **Clothing Style**: Garment type, color, patterns, accessories
-- **Body Shape**: Height, weight, posture, body proportions
+- **Forehead Area:** Calculated by multiplying `forehead_width_cm` and `forehead_height_cm`.
+- **Forehead Ratio:** The ratio of `forehead_width_cm` to `forehead_height_cm` to assess proportionality.
+- **Nose Area Approximation:** Estimated using width and length features.
+- **Nose-to-Lip Ratio:** Ratio of `distance_nose_to_lip_long` to `nose_long` to capture proportionality.
+- **Symmetry Index:** Created by comparing features to assess facial symmetry.
+- **Interaction Terms:** Combined features like `forehead_width_cm * nose_wide` to capture complex relationships.
 
 ## Models Implemented
 
@@ -73,11 +85,8 @@ The models were evaluated based on several metrics:
 
 ## Conclusion and Future Work
 
-The project successfully developed a gender classification system with high accuracy. Future work includes exploring advanced techniques like transfer learning and adversarial learning, as well as investigating the impact of additional data augmentation and feature engineering strategies.
+The project successfully developed a gender classification system with high accuracy.
 
-## Installation
+## Contact
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/gender-classification.git
-
+For any queries or suggestions, please contact Tanishq Mahajan at trmahajan28@gmail.com.
