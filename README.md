@@ -83,7 +83,7 @@ The models were evaluated based on several metrics:
 - **Best Performing Model**: Random Forest, with a test accuracy of 96.4%.
 - **Comparison**: All models performed well, with minor differences in accuracy and precision.
 
-## Conclusion and Future Work
+## Conclusion
 
 The project successfully developed a gender classification system with high accuracy.
 
