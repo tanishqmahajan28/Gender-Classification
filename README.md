@@ -13,11 +13,9 @@ This project focuses on developing a machine learning model for gender classific
 - [Models Implemented](#models-implemented)
 - [Model Evaluation](#model-evaluation)
 - [Results](#results)
-- [Conclusion and Future Work](#conclusion-and-future-work)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Conclusion](#conclusion)
+- [Contact information](#contact)
+
 
 ## Overview
 
